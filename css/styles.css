@@ -1,13 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: pink;
+    background-color: rgb(160, 11, 11);
 }
 
 .form{
     background-color: white;
     padding: 20px;
     width: 300px;
-    margin: 0 auto;
+    margin: 50px auto;
+    border-radius: 5px;
 }
 
 button{
@@ -26,7 +27,7 @@ button{
     box-sizing: border-box;
 }
 
-input[type="button"]{
+input[type="submit"]{
     border: none;
     background-color: #1860a8;
     color: white;
@@ -34,7 +35,7 @@ input[type="button"]{
     border-radius: 5px;
 }
 
-#tasksContainer{
+#eventsContainer{
     background-color: white;
     border-radius: 5px;
     padding: 10px;
@@ -45,7 +46,7 @@ input[type="button"]{
     gap: 5px;
 }
 
-.task{
+.event{
     border: solid 1px #ccc;
     padding: 10px;
     display: flex;
@@ -53,27 +54,27 @@ input[type="button"]{
     justify-content: center;
 }
 
-.task .days{
+.event .days{
     text-align: center;
     width: 100px;
 }
 
-.task .days .days-number{
+.event .days .days-number{
     font-size: 30px;
     font-weight: bold;
     display: block;
 }
 
-.task .event .name{
+.event .event .name{
     padding: 10px;
     width: 200px;
 }
 
-.task .event-date{
+.event .event-date{
     padding: 10px;
     width: 100px;
 }
 
-.task .actions{
+.event .actions{
     padding: 10px;
 }
